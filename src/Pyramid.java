@@ -1,4 +1,3 @@
-
 public class Pyramid {
    
     public static void Pyramid(int rows) {
