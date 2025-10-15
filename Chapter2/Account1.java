@@ -1,4 +1,4 @@
-public class Account{
+public class Account1{
 	private String name;
 	private double balance;
 
