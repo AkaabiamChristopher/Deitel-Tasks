@@ -9,14 +9,14 @@ public class GasMileage {
 
         while (true) {
             System.out.print("Enter miles driven (-1 to quit): ");
-            int miles = scanner.nextInt();
+            double miles = scanner.nextDouble();
 
             if (miles == -1) {
                 break;
             }
 
             System.out.print("Enter gallons used: ");
-            int gallons = scanner.nextInt();
+            double gallons = scanner.nextDouble();
 
             double milesPerGallon = (double) miles / gallons;
             System.out.printf("Miles per gallon for this trip: %.2f%n", milesPerGallon);

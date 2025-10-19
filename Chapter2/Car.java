@@ -24,7 +24,7 @@ public class Car {
         return year;
     }   
     public void setPrice(double price) {
-        if (price > 0.0) {
+       if  (price > 0.0) {
             this.price = price;
          }
      }
